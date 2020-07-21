@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+  </head>
+
+  <body>
+    <a-scene>
+
+      <a-assets>
+        <a-asset-item id="object" src="OBJ/OBJ.obj"></a-asset-item>
+        <a-asset-item id="material" src="MTL/OBJ.mtl"></a-asset-item>
+      </a-assets>
+
+    <a-obj-model src="#object" mtl="#material" position ="100 -400 650" rotation="0 0 0"></a-obj-model>
+
+    </a-scene>
+    
+  </body>
+</html>
